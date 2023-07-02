@@ -77,7 +77,7 @@
                 var container = document.querySelector(".addBtn");
                 var link = document.createElement('a');
                 link.id = 'myLink';
-                link.href = '../../404';
+                link.href = '../C-404';
                 var randomIndex = Math.floor(Math.random() * nextPhrase.length);
                 link.textContent = nextPhrase[randomIndex];
                 btnHide = false
